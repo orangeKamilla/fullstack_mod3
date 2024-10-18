@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Set Comic Sans font */
+    color: black;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: grey; /* Darker grey for navbar */
+    color: white; 
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+.navbar-default .navbar-brand {
+    color: black;
+    font-size: 40px;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-size: 20px;
+}
+
+
+.row {
+    margin: 5px;
+    background-color: grey; /* Darker grey for the tall section */
+    color: black; /* Text color for the tall section */
+    font-size: 35px;   
+}
+
+.text-center h1 {
+    color: black; 
+}
