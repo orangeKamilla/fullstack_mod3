@@ -1,18 +1,21 @@
 body {
     margin: 0;
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Set Comic Sans font */
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
     color: black;
 }
 
 .navbar {
     margin-bottom: 0;
-    background-color: grey; /* Darker grey for navbar */
+    background-color: grey;
     color: white; 
     border: 1px black solid;
     padding: 20px;
 }
 
 
+.nav .navbar-nav {
+    width: 100%;
+}
 .navbar-default .navbar-brand {
     color: black;
     font-size: 40px;
@@ -27,8 +30,8 @@ body {
 
 .row {
     margin: 5px;
-    background-color: grey; /* Darker grey for the tall section */
-    color: black; /* Text color for the tall section */
+    background-color: grey; 
+    color: black; 
     font-size: 35px;   
 }
 
